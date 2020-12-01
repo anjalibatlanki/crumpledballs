@@ -41,7 +41,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  //keyPressed();
+  keyPressed();
   dustbin.display();
   paper.display();
   ground.display();
